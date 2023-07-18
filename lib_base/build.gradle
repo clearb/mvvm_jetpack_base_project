@@ -1,0 +1,78 @@
+import com.zyn.plugin.AndroidX
+import com.zyn.plugin.BuildConfig
+import com.zyn.plugin.Dependencies
+import com.zyn.plugin.Alibaba
+import com.zyn.plugin.Glide
+
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id("kotlin-kapt")
+}
+
+android {
+    namespace 'com.zyn.lib_base'
+    compileSdk BuildConfig.compileSdkVersion
+
+    defaultConfig {
+        minSdk BuildConfig.minSdkVersion
+        targetSdk BuildConfig.targetSdkVersion
+        versionCode BuildConfig.versionCode
+        versionName BuildConfig.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        kapt{
+            arguments {
+                arg("AROUTER_MODULE_NAME", project.name)
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    dataBinding {
+        enabled true
+    }
+}
+
+dependencies {
+
+    implementation(AndroidX.kotlin_core)
+    implementation(AndroidX.appcompat)
+    implementation(AndroidX.design)
+    implementation(AndroidX.constraintlayout)
+    implementation(AndroidX.junit)
+    implementation(AndroidX.testJunit)
+    implementation(AndroidX.espresso_core)
+
+    api(Alibaba.arouter)
+    api(Alibaba.arouterCompiler)
+
+    api(Glide.glide)
+    api(Glide.glide_compiler)
+    api(Glide.glide_okhttp3_integration)
+    api(Glide.glide_transfer)
+
+    api(Dependencies.blankjUtils)
+
+    api(Dependencies.rxbinding)
+
+    api(Dependencies.rxlifecycle)
+    api(Dependencies.rxlifecycle_components)
+
+    api(Dependencies.toast)
+
+    api(project(":base_ui"))
+}

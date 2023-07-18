@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">i密魔盒</string>
+    <string name="app_login">登录</string>
+    <string name="app_cellphone">使用手机号登录</string>
+    <string name="app_cell_login">获取短信验证码</string>
+    <string name="app_cell_code">输入验证码</string>
+    <string name="app_activation_code">输入激活码</string>
+    <string name="app_code_send_to_phone">验证码已发送至 %s</string>
+    <string name="app_hint_phone_number">请输入手机号</string>
+    <string name="app_hint_safe_phone_number">请输入安全手机号</string>
+    <string name="app_hint_old_phone_number">请输入旧安全手机号</string>
+    <string name="app_cell_nickname">设置昵称</string>
+    <string name="app_cell_nicknames">产品支持与好又的加密</string>
+    <string name="app_cell_nicknamePhone">下一步</string>
+    <string name="app_cell_codePhone">验证码已发送您的手机</string>
+    <string name="App_register_success">注册成功</string>
+    <string name="app_hint_text">未注册的手机号验证后自动创建账号</string>
+    <string name="app_login_input_phone_notice">请使用已经注册手机号进行登录</string>
+    <string name="app_hint_mi">《用户协议与隐私政策》</string>
+    <string name="App_head">选择头像</string>
+    <string name="App_head_c">完成</string>
+    <string name="App_hintGotIt">知道了</string>
+    <string name="App_hint_know">好的</string>
+    <string name="app_warn">警告</string>
+    <string name="app_warn_tips1">不支持运行在已Root的设备上，请换台设备试试。</string>
+    <string name="app_warn_tips2">本App已过期失效，请重新到官网下载最新版本</string>
+    <string name="app_warn_tips_network_failed">网络异常，请检查网络</string>
+    <string name="app_warn_tips_open_location">请打开位置服务</string>
+    <string name="app_warn_tips_open_wifi">当前wang未开启，请打开WIFI</string>
+    <string name="app_warn_tips_wait_wifi">正在打开WIFI，请稍后再试</string>
+    <string name="app_warn_tips_disable_wifi">手机WIFI未开启，将无法与魔盒通信</string>
+    <string name="app_warn_tips_open_notifications">请启用通知</string>
+    <string name="app_warn_tips_open_Wlan">请启用WLAN</string>
+    <string name="app_hint_tips_scan_ble_finish">未扫描到可以连接的魔盒，请确认魔盒已开机并处于手机蓝牙信号扫描范围内</string>
+    <string name="app_hint_tips_open_ble">蓝牙已关闭，无法检测到您的魔盒，请打开蓝牙</string>
+    <string name="app_hint_tips_open_ble_failed">魔盒连接失败，为确保成功连接魔盒，请重启手机蓝牙后重新启动应用</string>
+    <string name="app_hint_tips_open_ble_failed_133_or_else">蓝牙操作频繁，为确保成功连接魔盒，请重启手机蓝牙后重新启动应用</string>
+    <string name="app_hint_tips_open_ble_failed_8_or_22">系统检测到魔盒蓝牙连接繁忙，请重启手机蓝牙后重新启动应用</string>
+    <string name="app_hint_tips_box_details_open_ble_failed">未扫描到此魔盒，请确认魔盒已开机并处于蓝牙信号扫描范围内。</string>
+    <string name="app_hint_tips_wait_connecting">等待连接中</string>
+    <string name="app_hint_tips_connect_error_box_wifi">魔盒WiFi连接异常</string>
+    <string name="app_hint_tips_connect_error_box_blue">魔盒蓝牙连接异常</string>
+    <string name="app_hint_tips_connect_busy_failed_wifi">魔盒WiFi连接繁忙，请稍后重试</string>
+    <string name="app_hint_tips_connect_no_support_failed_wifi">不支持WiFi直连</string>
+    <string name="app_hint_tips_connect_failed_wifi">魔盒WiFi连接失败</string>
+    <string name="app_hint_tips_decrypt_error" tools:ignore="ExtraTranslation">魔盒加解密异常</string>
+    <string name="app_hint_tips_update_decrypt_error" tools:ignore="ExtraTranslation">更新魔盒加解密异常</string>
+    <string name="app_hint_tips_connect_box_close_socket">魔盒状态异常,请重启魔盒......</string>
+
+    <string name="app_permissionReminder01">尊敬的用户，感谢您使用I密魔盒APP \n请点击”同意’‘开始使用我们的产品和服务。</string>
+    <string name="app_permissionReminder02">各条款，我们将在条款说明的范围内收集、使用、处理并保护您的个人信息。\n\t\t\t  请点击“同意”开始使用我们的产品和服务。</string>
+    <string name="app_webPageEditTextHint">请输入网址</string>
+    <string name="app_agreement_use_title">《用户协议与隐私政策》</string>
+
+    <string name="app_permission_address_book">通讯录</string>
+    <string name="app_permission_pic_video">照片/视频</string>
+    <string name="app_permission_install_app">安装应用</string>
+    <string name="app_permission_mp4_file">媒体/文件</string>
+    <string name="app_permission_net_set">网络设置</string>
+    <string name="app_permission_record_audio">录制音频</string>
+    <string name="app_permission_location">位置信息</string>
+    <string name="app_permission_auth_file_permission">请手动授权App获取管理文件权限</string>
+    <string name="app_hint">提示</string>
+    <string name="app_hintPermission">为了您能正常使用，我们需要获取以下权限\n\n%s</string>
+    <string name="app_hintCancel">取消</string>
+    <string name="app_hintEnsure">确认</string>
+    <string name="app_hintGoSetting">去设置</string>
+    <string name="app_hintPermissionACCEPT_HANDOVER">允许呼叫应用继续在另一个应用中启动的呼叫</string>
+    <string name="app_hintPermissionACCESS_BACKGROUND_LOCATION">在后台获取位置</string>
+    <string name="app_hintPermissionACCESS_COARSE_LOCATION">获取粗略位置</string>
+    <string name="app_hintPermissionACCESS_FINE_LOCATION">获取精确位置</string>
+    <string name="app_hintPermissionACCESS_MEDIA_LOCATION">读取照片中的地理位置</string>
+    <string name="app_hintPermissionACTIVITY_RECOGNITION">获取运动步数</string>
+    <string name="app_hintPermissionADD_VOICEMAIL">添加语音邮件</string>
+    <string name="app_hintPermissionANSWER_PHONE_CALLS">接听电话</string>
+    <string name="app_hintPermissionBLUETOOTH_ADVERTISE">向附近的蓝牙设备发布广播</string>
+    <string name="app_hintPermissionBLUETOOTH_CONNECT">连接蓝牙设备</string>
+    <string name="app_hintPermissionBLUETOOTH_SCAN">扫描蓝牙设备</string>
+    <string name="app_hintPermissionBODY_SENSORS">使用传感器</string>
+    <string name="app_hintPermissionCALL_PHONE">拨打电话</string>
+    <string name="app_hintPermissionCAMERA">相机权限</string>
+    <string name="app_hintPermissionGET_ACCOUNTS">访问账户列表</string>
+    <string name="app_hintPermissionMANAGE_EXTERNAL_STORAGE">外部存储读写管理权限</string>
+    <string name="app_hintPermissionNOTIFICATION_SERVICE">通知栏权限</string>
+    <string name="app_hintPermissionPROCESS_OUTGOING_CALLS">处理拨出电话</string>
+    <string name="app_hintPermissionREAD_CALENDAR">读取日历</string>
+    <string name="app_hintPermissionREAD_CALL_LOG">读取通话记录</string>
+    <string name="app_hintPermissionREAD_CONTACTS">读取联系人</string>
+    <string name="app_hintPermissionREAD_EXTERNAL_STORAGE">读取外部存储</string>
+    <string name="app_hintPermissionREAD_PHONE_NUMBERS">读取手机号码</string>
+    <string name="app_hintPermissionREAD_PHONE_STATE">读取电话状态</string>
+    <string name="app_hintPermissionREAD_SMS">读取短信</string>
+    <string name="app_hintPermissionRECEIVE_MMS">接收彩信</string>
+    <string name="app_hintPermissionRECEIVE_SMS">接收短信</string>
+    <string name="app_hintPermissionRECEIVE_WAP_PUSH">接收WAP推送消息</string>
+    <string name="app_hintPermissionRECORD_AUDIO">录音权限</string>
+    <string name="app_hintPermissionREQUEST_INSTALL_PACKAGES">安装应用权限</string>
+    <string name="app_hintPermissionSEND_SMS">发送短信</string>
+    <string name="app_hintPermissionSYSTEM_ALERT_WINDOW">悬浮窗权限</string>
+    <string name="app_hintPermissionUSE_SIP">使用SIP视频</string>
+    <string name="app_hintPermissionWRITE_CALENDAR">修改日历</string>
+    <string name="app_hintPermissionWRITE_CALL_LOG">修改通话记录</string>
+    <string name="app_hintPermissionWRITE_CONTACTS">修改联系人</string>
+    <string name="app_hintPermissionWRITE_EXTERNAL_STORAGE">写入外部存储</string>
+    <string name="app_hintPermissionWRITE_SETTINGS">系统设置权限</string>
+
+    <string name="app_guideTitle01"> 隐私数据的专用“保险箱”</string>
+    <string name="app_guideTitle02">信息授权 隐私可控</string>
+    <string name="app_guideTitle03">拒绝远端备份</string>
+    <string name="app_guideTitle04">隐私安全不泄露</string>
+    <string name="app_guideContent01">物理隔离  密文存储\n拒绝远端存储  防止第三方应用收集/读取/获取</string>
+    <string name="app_guideContent02">密文传输  授权查看\n拒绝隐私信息随意转发  刻意截屏/录屏保存</string>
+    <string name="app_guideContent03">魔盒密文存储  数据密文还原\n手机遗失   魔盒数据密文还原至手机</string>
+    <string name="app_guideContent04">魔盒遗失  隐私安全可控\n魔盒远程冻结/远程销毁\n非机主本人无法使用</string>
+    <string name="app_guideContent05">信息授权、不惧转发</string>
+    <string name="app_guideContent06">信息阅后即焚，防止截屏、录屏保护、再次转发无效、截屏通知、录屏通知。</string>
+    <string name="app_guideContent07">开启保护</string>
+
+
+    <string name="app_splashSvBoxBusiness">商务版</string>
+    <string name="app_splashSvBoxEnterprise">企业版</string>
+    <string name="app_splashInputIDTitle">用单位ID添加服务器</string>
+    <string name="app_splashInputIDEditHint">请输入单位ID</string>
+    <string name="app_splashInputIDEditHint2">请输入正确的单位ID</string>
+    <string name="app_hintConfirm">确定</string>
+    <string name="app_splashInputIDOr">或</string>
+    <string name="app_splashInputIDScanQRCodeTitle">扫码添加服务器</string>
+    <string name="app_splashInputIDScanQRCode">扫描二维码</string>
+
+
+    <string name="app_safePwdDesc">用于魔盒登录、清除魔盒数据、更换安全手机\n号、远程销毁、远程冻结等相关操作</string>
+    <string name="app_safeInviteDesc">用于魔盒登录相关操作</string>
+    <string name="app_set_title_invite_code">请输入邀请码</string>
+    <string name="app_set_title_safe_code">设置安全密码</string>
+    <string name="app_login_set_hint_name">请输入昵称</string>
+    <string name="app_login_set_hint_invite_code">请输入邀请码</string>
+    <string name="app_login_next">下一步</string>
+    <string name="app_login_activation">激活</string>
+    <string name="app_login_get_activation_code">获取验证码</string>
+    <string name="app_connectHelp"><u>重新扫描</u></string>
+    <string name="app_connectHelpTips">请将魔盒靠近手机，开启魔盒电源</string>
+    <string name="app_connectBoxTips">正在搜寻附近的魔盒设备</string>
+    <string name="app_connect_to_box">连接到魔盒</string>
+    <string name="app_active_to_box">激活魔盒</string>
+    <string name="app_scan_all_boxs">扫描魔盒</string>
+
+    <string name="app_tipBleDisconnect">魔盒连接已断开，即将跳转到初始页面！</string>
+
+    <string name="app_toast_notify_failure">设备读写功能不支持</string>
+    <string name="app_toast_scan_started">启动蓝牙扫描失败，请检测蓝牙是否开启</string>
+    <string name="app_toast_connect_fail_01">魔盒连接失败 请先打开蓝牙</string>
+    <string name="app_toast_connect_fail_02">魔盒连接失败，请扫描后重试</string>
+    <string name="app_toast_connect_fail_03">魔盒无法连接，请尝试重新打开app</string>
+    <string name="app_toast_connect_fail_04">检测异常，请检测魔盒是否开启成功......</string>
+    <string name="app_toast_connect_success_03">设备连接成功</string>
+    <string name="app_toast_scan_started_blue_none_open">请检查蓝牙是否打开</string>
+    <string name="app_toast_free_by_manage_please_call_manage">已被管理员冻结，请联系管理员处理</string>
+    <string name="app_toast_reset_tips">不要重复操作哦</string>
+    <string name="app_toast_login_failed_box_freeze">该魔盒已冻结</string>
+    <string name="app_toast_login_failed_box_lock">该魔盒已锁定</string>
+    <string name="app_toast_please_connect_box">请先连接魔盒</string>
+    <string name="app_toast_connect_failed_01">魔盒断开连接</string>
+    <string name="app_toast_connect_wifi">魔盒初始化</string>
+    <string name="app_toast_system_error">系统错误</string>
+    <string name="app_toast_connecting">正在连接魔盒中,请稍后......</string>
+    <string name="app_toast_isForceDisconnect">魔盒执行操作中，请稍后执行其他操作</string>
+    <string name="app_toast_operate_blue_error">蓝牙未开启，无法执行操作</string>
+
+    <string name="app_dialog_title_01">正在连接魔盒</string>
+
+    <string name="app_symbolDash">——</string>
+    <string name="app_sdPercent">%</string>
+    <string name="app_capacity">容量：%s</string>
+    <string name="app_bdState">状态：%s</string>
+    <string name="app_bdConnectBtn">连接魔盒</string>
+    <string name="app_bdActivationBtn">激活魔盒</string>
+    <string name="app_unlock_box">解锁魔盒</string>
+    <string name="app_thaw_box">解冻魔盒</string>
+    <string name="app_inoperable_box">不可操作</string>
+    <string name="app_bdAutoConnectBtn">自动连接</string>
+    <string name="app_bdScanNearbyBtn">扫描附近设备</string>
+
+
+    <string name="app_version_01">开发版</string>
+    <string name="app_version_02">测试版</string>
+    <string name="app_version_03">内测版</string>
+    <string name="app_version_04">正式版</string>
+
+    <string name="app_box_state_01">已锁定</string>
+    <string name="app_box_state_02">正常</string>
+    <string name="app_box_state_03">已冻结</string>
+    <string name="app_box_state_04">已销毁</string>
+    <string name="app_box_state_05">未知</string>
+
+    <string name="app_box_step_01">解锁</string>
+    <string name="app_box_step_02">魔盒已冻结</string>
+
+
+    <!--error-->
+    <string name="app_OkHttpBaseParser_error">OkHttpBaseParser 类型转换异常</string>
+    <string name="app_ResponseResult_error">ResponseResult 解析出现IO异常</string>
+    <string name="app_json_resolving_error">Json解析异常 ,</string>
+    <string name="app_request_error">请求失败</string>
+
+    <string name="app_inputConfirmationCode">再次获取</string>
+    <string name="app_reGetInputConfirmationCode">重新获取</string>
+    <string name="app_resendVerification">重发验证(%ds)</string>
+    <string name="app_get_code_after_second">- -秒后重新获取验证码</string>
+
+
+    <string name="app_dialog_title_1">加载中</string>
+    <string name="app_dialog_title_2">魔盒断开</string>
+    <string name="app_dialog_title_3">上传中</string>
+    <string name="app_dialog_title_4">激活魔盒成功</string>
+    <string name="app_dialog_title_5">激活魔盒失败</string>
+    <string name="app_dialog_button_text_1">下载</string>
+    <string name="app_dialog_hintBoxStorageSpace">温馨提醒\n魔盒存储空间不足</string>
+    <string name="app_dialog_hintPhoneStorageSpace">请您定期清理手机存储空间\n确保APP的正常使用</string>
+    <string name="app_dialog_LowBattery_tips_1">魔盒电量过低，即将关机</string>
+    <string name="app_dialog_LowBattery_tips_2">魔盒电量已不足%s \n请及时充电</string>
+
+    <!--首页-->
+    <string name="app_mainV2State">文件传输中</string>
+    <string name="app_mainV2BatteryHint">剩余电量</string>
+    <string name="app_mainV2TotalSpaceHint">已用容量</string>
+    <string name="app_mainV2IMIChatTitle">魔盒交流</string>
+    <string name="app_mainV2IMIChatHint">密文交流 自主可控</string>
+    <string name="app_mainV2IMIProtectTitle">魔盒保护</string>
+    <string name="app_mainV2IMIProtectHint">密文存储 物理隔离  解密查看</string>
+    <string name="app_mainV2IMIMemoTitle">魔盒备忘录</string>
+    <string name="app_mainV2IMISpaceTitle">魔盒空间</string>
+    <string name="app_mainV2IMIMemoHint">信息不存手机 存魔盒</string>
+    <string name="app_mainV2IMISpaceHint">手机信息 物理隔离</string>
+    <string name="app_mainV2IMIBackupTitle">魔盒备份</string>
+    <string name="app_mainV2IMIPhoneMenuTitle">手机通讯录</string>
+    <string name="app_mainV2IMIPhoneMenuHint">手机通讯录备份魔盒\n不经第三方</string>
+    <string name="app_mainV2IMIBackupHint">密文备份  密文还原  不备份远端</string>
+    <string name="app_mainV2IMISettingTitle">设置</string>
+    <string name="app_mainV2IMIAppFolderTitle">App文件夹</string>
+    <string name="app_mainV2IMIAppFolderHint">文件预览 阅后即焚</string>
+
+    <string name="app_unit_day">天</string>
+    <string name="app_unit_hour">时</string>
+    <string name="app_unit_minutes">分</string>
+    <string name="app_unit_second">秒</string>
+
+
+    <string name="app_http_connect_failed_exception">连接失败，请检查网络后再试</string>
+    <string name="app_http_connect_timeout_exception">连接超时，请重试</string>
+    <string name="app_http_inter_exception">网络异常，请重试</string>
+    <string name="app_gson_data_exception">数据解析异常，请稍候再试</string>
+    <string name="app_http_connect_servers_failed_exception">连接服务器失败，请稍后再试</string>
+
+    <string name="app_setting">设置</string>
+    <string name="app_person_setting">个人设置</string>
+    <string name="app_safe_setting">安全设置</string>
+    <string name="app_data_safe">数据安全</string>
+    <string name="app_person_setting_info">个人设置</string>
+    <string name="app_safe_notice">安全通知</string>
+    <string name="app_box_manager">魔盒管理</string>
+    <string name="app_help">帮助</string>
+    <string name="app_about">关于</string>
+    <string name="app_safe_login_out">安全退出</string>
+    <string name="app_person_nick_name">姓名</string>
+    <string name="app_person_avatar">头像</string>
+    <string name="app_finish">完成</string>
+    <string name="app_chanage_header">更改头像</string>
+    <string name="app_file_hide">文件隐藏（魔盒数据隐藏）</string>
+    <string name="app_file_hide_notice">魔盒空间、魔盒备忘录、魔盒通讯录</string>
+    <string name="app_clean_box_data">清除魔盒数据</string>
+    <string name="app_clean_traces">清除痕迹</string>
+    <string name="app_is_login_out_box">是否退出魔盒的登录状态</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_exit">退出</string>
+    <string name="app_box_app_update">魔盒App更新</string>
+    <string name="app_box_update">魔盒固件更新</string>
+    <string name="app_official_account">微信公众号</string>
+    <string name="app_about_box">关于魔盒</string>
+    <string name="app_help_info">帮助信息</string>
+    <string name="app_quick_guide">快捷指南</string>
+    <string name="app_add_magic_box">添加魔盒</string>
+    <string name="app_add_magic_box_notice">退出当前使用魔盒登录状态，\n选择添加新的魔盒设备</string>
+    <string name="app_exchange_magic_box">切换魔盒</string>
+    <string name="app_unbind_magic_box">魔盒解绑</string>
+    <string name="app_exchange_magic_box_notice">退出当前使用魔盒登录状态，\n进入设备列表，选择需要使用的设备</string>
+    <string name="app_unbind_magic_box_notice">解除绑定的魔盒，\n魔盒内的数据全部清除，魔盒恢复出厂设置</string>
+    <string name="app_fun_manager">功能管理</string>
+    <string name="app_custom_key_of_box">魔盒按键自定义</string>
+    <string name="app_box_freeze">魔盒冻结</string>
+    <string name="app_box_thaw">魔盒解冻</string>
+    <string name="app_box_destory">魔盒销毁</string>
+    <string name="app_account_safe">账户安全</string>
+    <string name="app_safe_pass">安全密码</string>
+    <string name="app_safe_phone_num">安全手机号</string>
+    <string name="app_check">查看</string>
+    <string name="app_modify">修改</string>
+    <string name="app_bind_phone_content">绑定号码：%s</string>
+    <string name="app_bind_box_sn_content">魔盒SN：%s</string>
+    <string name="app_bind_phone">绑定手机号</string>
+    <string name="app_bind_phone_modify">绑定手机号修改</string>
+    <string name="app_forget_safe_pass">忘记安全码？请联系管理员重置</string>
+    <string name="app_please_input_bind_phone_num">请输入绑定手机号</string>
+    <string name="app_please_input_bind_phone_num_again">请再次输入绑定手机号</string>
+    <string name="app_please_check_your_message">请注意查收短信</string>
+    <string name="app_next_step">下一步</string>
+    <string name="app_finish_modify">完成修改</string>
+    <string name="app_modify_bind_phone_success">更改绑定手机号成功</string>
+    <string name="app_box_safe_code">魔盒安全码</string>
+    <string name="app_box_safe_code_change">魔盒安全码修改</string>
+    <string name="app_please_input_safe_phone_num">请输入安全手机号</string>
+    <string name="app_please_input_box_safe_code">请输入新魔盒安全码</string>
+    <string name="app_please_input_box_safe_code_again">请再次输入魔盒安全码</string>
+    <string name="app_box_safe_code_change_success">魔盒安全码修改成功</string>
+    <string name="app_box_safe_phone_change_success">修改安全手机号成功</string>
+    <string name="app_safe_phone_change">安全手机号修改</string>
+    <string name="app_magic_box_safe_code">魔盒安全码</string>
+    <string name="app_retry">重试</string>
+    <string name="app_check_info_failed">查看信息失败</string>
+    <string name="app_box_freeze_notice">仅后台管理员可在后台管理系统冻结魔盒</string>
+    <string name="app_box_thaw_notice">仅后台管理员可在后台管理系统解冻魔盒</string>
+    <string name="app_i_know">知道啦</string>
+    <string name="app_click_destroy">按键销毁</string>
+    <string name="app_magic_box_custom_key">自定义魔盒按键</string>
+    <string name="app_magic_box_indicator_light">魔盒指示灯</string>
+    <string name="app_magic_box_bee">魔盒蜂鸣器</string>
+    <string name="app_magic_box_vibrate">魔盒振动</string>
+    <string name="app_func_manager">功能管理</string>
+    <string name="app_clear_box_chat_history">清除魔盒交流记录</string>
+    <string name="app_clear_system_cache">清除app系统缓存</string>
+    <string name="app_system_cache_size">%d B</string>
+    <string name="app_confirm_clean">确定清除</string>
+    <string name="app_confirm">确认</string>
+    <string name="app_clear_system_cache_notice">您当前正在进行高敏感操作：\n是否清除App系统缓存？</string>
+    <string name="app_clear_chat_history_notice">您当前正在进行高敏感操作：\n是否清除魔盒交流记录？</string>
+    <string name="app_clear_box_data_notice">魔盒数据一键清除\n绑定手机号码与魔盒绑定关系不变</string>
+    <string name="app_magic_box_unbind">魔盒解绑</string>
+    <string name="app_unbind_box_success_exit_app_notice">解绑完成即将退出应用</string>
+    <string name="app_no">否</string>
+    <string name="app_clear_box_data_now">立即开始清除</string>
+    <string name="app_unbind_box_success_clear_box_data_confirm_notice">魔盒已经解绑成功，请确认是否清除魔盒内所有数据魔盒恢复出厂设置</string>
+    <string name="app_is_sure_login_out">是否退出魔盒的登录状态</string>
+    <string name="app_bind_phone_label">绑定账号:</string>
+    <string name="app_magic_box_sn_label">魔盒SN：</string>
+    <string name="app_disconnect_tips">魔盒连接已断开</string>
+
+
+    <string name="app_please_input_safe_phone_num_again">请再次输入安全手机号码</string>
+    <string name="app_magic_box_check_failed">魔盒安全码验证失败</string>
+    <string name="app_safe_phone_check_error">安全手机号校验错误</string>
+    <string name="app_input_new_safe_phone_not_same">两次输入新安全手机号不一致</string>
+    <string name="app_bind_phone_change_success">绑定手机号修改成功</string>
+    <string name="app_input_new_bind_phone_not_same">两次输入绑定手机号不一致</string>
+    <string name="app_safe_phone_verify_code_check_error">安全手机号验证码校验未通过</string>
+    <string name="app_app_update">APP升级</string>
+    <string name="app_box_ota_update">固件升级</string>
+    <string name="app_update_version_title">升级APP更新版本</string>
+    <string name="app_box_update_version_title">升级固件更新版本</string>
+    <string name="app_change_bind_phone_error">修改绑定手机号失败</string>
+    <string name="app_version_lable">版本号：</string>
+    <string name="app_current_version_lable">当前版本号：</string>
+    <string name="app_update">升级</string>
+    <string name="app_clean_data">清除数据</string>
+    <string name="app_clean_box_data_command_send_failed">清除魔盒数据命令发送失败</string>
+    <string name="app_clean_box_log_upload_failed">清除魔盒日志上传失败</string>
+    <string name="app_start_clean_cache">开始清除缓存</string>
+    <string name="app_start_clean_chat_history">开始清除聊天历史记录</string>
+    <string name="app_safe_code_check">安全码校验</string>
+    <string name="app_clean_box_data_failed_retry_notice">清除魔盒数据失败，是否重试</string>
+    <string name="app_please_input_new_safe_phone_num">请输入新安全手机号</string>
+    <string name="app_please_input_new_safe_phone_num_again">请再次输入新安全手机号</string>
+    <string name="app_please_input_new_bind_phone_num">请输入新绑定手机号</string>
+    <string name="app_please_input_new_bind_phone_num_again">请再次输入新绑定手机号</string>
+    <string name="app_safe_phone_check_failed_please_retry">安全手机号验证失败请重试</string>
+    <string name="app_please_input_right_safe_phone_and_verify_code">请输入正确的安全手机号和验证码</string>
+    <string name="app_please_call_manager_to_change">请联系管理员重置</string>
+    <string name="app_clean_data_ing">清除数据中...</string>
+
+    <!-- 魔盒空间start -->
+    <string name="phone_contacts">手机通讯录</string>
+    <string name="magicbox_reset">魔盒通讯录</string>
+    <string name="backup_to_phone">还原手机</string>
+    <string name="app_files">App文件夹</string>
+    <string name="transfer_to_app_files">已转出至App文件夹</string>
+    <string name="contact_permission_read">请允许读取手机通讯录</string>
+    <string name="contact_permission_write">请允许写入手机通讯录</string>
+    <string name="sync_contact_promt">同步手机通讯录:%d人</string>
+    <string name="sync_contact_failed">同步手机通讯录失败:%s</string>
+    <string name="sync_contact_doing_promt">正在同步请稍后</string>
+    <string name="restore_contact_doing_promt">正在还原请稍后</string>
+    <string name="restore_contact_success_promt">还原成功</string>
+    <string name="restore_contact_failed_promt">还原失败:%s</string>
+    <string name="search">搜索</string>
+    <string name="space_backup_set">通讯录备份</string>
+    <string name="delete">删除</string>
+    <string name="app_fun_is_not_develop_notice">该功能暂未开放，敬请期待</string>
+    <string name="im_getfilepath_failure">获取文件路径失败</string>
+    <string name="select_all">全选</string>
+    <!-- 魔盒空间end -->
+
+    <string name="app_safe_code_check_failed">安全码校验失败</string>
+    <string name="app_check_safe_phone_failed">校验安全手机号失败</string>
+    <string name="app_led_func_change_failed">魔盒LED功能修改失败</string>
+    <string name="app_vibrate_func_change_failed">魔盒振动功能修改失败</string>
+    <string name="app_bee_func_change_failed">魔盒蜂鸣器功能修改失败</string>
+    <string name="app_box_led_set_success">魔盒指示灯功能修改成功</string>
+    <string name="app_box_bee_set_success">魔盒蜂鸣功能器修改成功</string>
+    <string name="app_box_vibrate_set_success">魔盒振动功能修改成功</string>
+
+
+    <string name="app_box_decrypt_or_encrypt_time_out_error">魔盒数据加解密超时</string>
+
+    <string name="app_add_memorandum_failed">添加备忘录到魔盒失败</string>
+    <string name="app_del_memo_failed_please_retry">删除备忘录失败请重试</string>
+    <string name="app_folder_change_failed_please_retry">修改文件夹名称失败请重试</string>
+
+    <string name="app_apk_download_failed">安装包下载失败</string>
+    <string name="app_the_apk_is_newest">当前已经是最新版本</string>
+    <string name="app_updateing_please_wait">升级中,请稍候...</string>
+    <string name="app_ota_send_file_success">OTA 文件发送魔盒成功</string>
+    <string name="app_ota_send_file_failed">OTA 文件发送魔盒失败</string>
+    <string name="app_update_finish">升级完成</string>
+    <string name="app_sending_file_please_wait">文件发送中，请稍候...</string>
+    <string name="app_check_sum_failed_please_retry">校验和校验失败请重新下载</string>
+    <string name="disclaimer">《免责条例》</string>
+    <string name="read_and_agree">我已阅读并同意</string>
+    <string name="remote_destroy">魔盒销毁</string>
+    <string name="remote_destroy_prompt">魔盒遗失\n设置对魔盒数据执行远程销毁\n魔盒设备实现硬件远程自毁</string>
+    <string name="occuping">使用中</string>
+    <string name="magicbox_destroying">正在销毁魔盒数据和固件程序</string>
+    <string name="phonenum_isempty">手机号为空</string>·
+    <string name="verifycode_isempty">验证码为空</string>
+    <string name="agreedeclaimer_prompt">请先同意免责声明</string>
+    <string name="magicbox_destroy_success">魔盒销毁成功，即将退出程序</string>
+    <string name="magicbox_destroy_failed">魔盒销毁失败:%s</string>
+    <string name="magicbox_destroying_prompt">销毁完成后将自动退出程序</string>
+    <string name="app_one_key_hide">一键隐藏</string>
+    <string name="app_box_file_hide">魔盒数据隐藏</string>
+    <string name="app_file_hide_success">文件隐藏成功</string>
+    <string name="app_file_hide_open_success">文件隐藏开启成功</string>
+    <string name="app_file_hide_close_success">文件隐藏关闭成功</string>
+    <string name="app_file_hide_failed">文件隐藏修改失败 error =%1$s</string>
+    <string name="app_get_box_btn_status">正在获取魔盒状态</string>
+    <string name="app_get_box_btn_status_failed">获取魔盒按键状态失败 error =%1$s</string>
+    <string name="app_safe_kay_board">智能安全软键盘</string>
+    <string name="app_key_board_empty_key_content">☺</string>
+
+    <string name="app_please_input_safe_code_first">请先输入安全码</string>
+    <string name="app_please_input_safe_code_again">请再次输入安全码</string>
+    <string name="app_two_safe_code_not_same">两次输入安全码不一致</string>
+    <string name="app_please_input_true_safe_phone">请输入正确的安全手机号</string>
+    <string name="app_please_input_true_verify_code">请输入正确的验证码</string>
+    <string name="app_input_safe_code_error">请输入正确六位数字安全码</string>
+    <string name="app_input_safe_code_again_error">请再次输入正确的六位魔盒安全码</string>
+    <string name="app_input_safe_phone_again_error">请再次输入正确的安全手机号</string>
+    <string name="app_input_bind_phone_error">请输入正确的绑定手机号</string>
+    <string name="app_input_bind_phone_again_error">请再次输入正确的绑定手机号</string>
+
+    <string name="app_operation_timeout">请求超时</string>
+    <string name="app_operation_unknownerror">未知错误</string>
+    <string name="app_share">分享</string>
+    <string name="openreadwrite_authority">请打开读写权限</string>
+    <string name="empty_text">暂无数据</string>
+
+    <string name="im_picture_send">发送</string>
+    <string name="im_picture_choose">选择</string>
+</resources>

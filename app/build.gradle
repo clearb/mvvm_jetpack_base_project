@@ -1,3 +1,6 @@
+import com.zyn.plugin.AndroidX
+import com.zyn.plugin.BuildConfig
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -5,14 +8,14 @@ plugins {
 
 android {
     namespace 'com.zyn.mybaseproject'
-    compileSdk 33
+    compileSdk BuildConfig.compileSdkVersion
 
     defaultConfig {
         applicationId "com.zyn.mybaseproject"
-        minSdk 24
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        minSdk BuildConfig.minSdkVersion
+        targetSdk BuildConfig.targetSdkVersion
+        versionCode BuildConfig.versionCode
+        versionName BuildConfig.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,12 +36,13 @@ android {
 }
 
 dependencies {
+    implementation(AndroidX.kotlin_core)
+    implementation(AndroidX.appcompat)
+    implementation(AndroidX.design)
+    implementation(AndroidX.constraintlayout)
+    implementation(AndroidX.junit)
+    implementation(AndroidX.testJunit)
+    implementation(AndroidX.espresso_core)
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    api(project(":base_ui"))
 }

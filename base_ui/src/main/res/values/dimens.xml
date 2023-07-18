@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_logo_hw">140dp</dimen>
+    <dimen name="login_logo_mg_top">74dp</dimen>
+    <dimen name="login_editText_height">46dp</dimen>
+
+    <dimen name="search_bar_height">30dp</dimen>
+    <dimen name="search_bar_left_icon_left_margin">0dp</dimen>
+    <dimen name="search_bar_right_icon_right_margin">4dp</dimen>
+    <dimen name="search_bar_search_input_left_margin">0dp</dimen>
+    <dimen name="search_bar_search_input_right_margin">68dp</dimen>
+    <dimen name="search_bar_filter_section_marin_left">64dp</dimen>
+    <dimen name="text_content_margin">10dp</dimen>
+    <dimen name="search_view_corner_radius">10dp</dimen>
+
+    <dimen name="customactivityoncrash_activity_horizontal_margin">16dp</dimen>
+    <dimen name="customactivityoncrash_activity_vertical_margin">16dp</dimen>
+    <dimen name="customactivityoncrash_error_activity_error_details_text_size">12sp</dimen>
+    <!--BottomBar title与屏幕底部的距离-->
+    <dimen name="fixed_height_bottom_padding">5dp</dimen>
+
+    <dimen name="app_safe_code_view_margin_top">90dp</dimen>
+    <dimen name="app_safe_code_check_notice_text_size">12sp</dimen>
+    <dimen name="app_check_safe_code_title_text_size">22sp</dimen>
+    <dimen name="app_modify_account_safe_edit_view_text_size">17sp</dimen>
+    <dimen name="app_get_verify_code_btn_height">60dp</dimen>
+
+    <dimen name="app_main_item_title_text_size">16sp</dimen>
+
+    <dimen name="app_main_item_height">80dp</dimen>
+    <dimen name="app_item_padding_left">70dp</dimen>
+    <dimen name="app_text_icon_space_width">76dp</dimen>
+    <dimen name="app_item_text_space">3dp</dimen>
+
+</resources>
