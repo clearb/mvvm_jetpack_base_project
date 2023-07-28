@@ -74,5 +74,13 @@ dependencies {
 
     api(Dependencies.toast)
 
+    api(Dependencies.xpopup)
+
+    api(Dependencies.fragmentationx)
+
+    api(Dependencies.koin_core)
+
+    api(Dependencies.libImmersionbar)
+
     api(project(":base_ui"))
 }

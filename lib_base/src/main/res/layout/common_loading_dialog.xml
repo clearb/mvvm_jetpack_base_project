@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_loading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/trans_gray_corner_15dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/iv_avatar"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:indeterminateTint="@color/gray_DF"
+        android:indeterminateTintMode="src_atop"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="@dimen/dp_10"
+        android:paddingTop="5dp"
+        android:paddingEnd="@dimen/dp_10"
+        android:paddingBottom="5dp"
+        android:textColor="#ffffff"
+        tools:text="正在创建会话" />
+</LinearLayout>
